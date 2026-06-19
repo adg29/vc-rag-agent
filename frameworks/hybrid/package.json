@@ -1,0 +1,13 @@
+{
+  "name": "vc-rag-agent-hybrid",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/agent.ts",
+    "evals": "npx tsx src/evals.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.55.0"
+  },
+  "engines": { "node": ">=18" }
+}
